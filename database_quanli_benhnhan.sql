@@ -252,7 +252,7 @@ WHERE pk.ngay_kham < '2026-09-08';
 
 SELECT * FROM v_DichVu_BenhNhan_DaDangKy;
     
--- iew để lấy thông tin bệnh nhân và phiếu khám đã đăng ký, với điều kiện giá dịch vụ lớn hơn 200.0. 
+-- Wiew để lấy thông tin bệnh nhân và phiếu khám đã đăng ký, với điều kiện giá dịch vụ lớn hơn 200.0. 
 -- Cần hiển thị các thông tin sau: Mã bệnh nhân, Họ tên bệnh nhân, Mã dịch vụ, Giá dịch vụ.
 CREATE VIEW v_PhieuKham_BenhNhan_DaDangKy
 AS
