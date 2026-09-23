@@ -327,8 +327,6 @@ END //
 
 DELIMITER ;
 
-CALL add_benhnhan ('BN009', 'Bui Thu Phuong', 'phuong.thu@example.com', '0954223535', 'Ninh Binh, Viet Nam');
-
 -- Stored Procedure có tên là add_hoadon 
 -- để thực hiện việc thêm một thanh toán mới cho một lần đăng ký khám.
 DELIMITER //
@@ -344,5 +342,3 @@ BEGIN
 END //
 
 DELIMITER ;
-
-CALL add_hoadon(9, 'Bank Transfer', 500.0, '2026-09-08');
